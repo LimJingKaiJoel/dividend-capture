@@ -2,6 +2,7 @@ from get_ex_date import get_expected_ex_date
 from helpers import get_dividends, load_data
 import yfinance as yf
 
+# FRONT PAGE
 def get_stocks_dict_list(tickers):
     result = []
     id = 1
@@ -31,15 +32,3 @@ def get_stocks_dict_list(tickers):
         result.append(dict)
 
     return result
-
-# def get_status(ticker):
-
-# def get_yield(ticker):
-
-filepath = "../data/SGX.txt"
-data = load_data(filepath)
-
-data = ["A17U.SI"]
-
-for ticker in data:
-    print(get_stocks_dict_list(data))

@@ -17,4 +17,4 @@ def get_dividends(ticker):
 
 def get_price_history(ticker, period):
     # Get pandas df of prices to match to dividend payout date
-    return yf.Ticker(ticker).history(period=period)
+    return yf.Ticker(ticker).history(period=period, auto_adjust=False)

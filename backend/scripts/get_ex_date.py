@@ -22,12 +22,3 @@ def get_expected_ex_date(dividends):
     result.append(expected_payout)
 
     return result
-
-
-filepath = "../data/SGX.txt"
-data = load_data(filepath)
-
-data = ["A17U.SI"]
-
-for ticker in data:
-    print(get_expected_ex_date(get_dividends(ticker)))
