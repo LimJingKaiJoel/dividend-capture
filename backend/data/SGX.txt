@@ -1,0 +1,1328 @@
+1A0 Katrina Group Ltd.
+1A1	Wong Fong Industries Limited
+1AZ	Audience
+1B0	Mm2 Asia Ltd.
+1B1	Hc Surgical Specialistslimited
+1B6	Ocean Sky International Ltd
+1C0	Cedar Strategic Holdings Ltd
+1D0	Kimly Limited
+1D1	Unusual Limited
+1D3	Lifebrandz Ltd.
+1D4	Aoxin Q & M Dental Grp Limited
+1D5	Capital World Limited.
+1E3	Sanli Environmental Limited
+1F0	Shopper360 Limited
+1F1	Y Ventures Group Ltd.
+1F2	Union Gas Holdings Limited
+1F3	Aspen (group) Holdings Limited
+1H2	Olive Tree Estates Limited
+1H3	Clearbridge Health Limited
+1H8	Ly Corporation Limited
+1J0	Slb Development Ltd.
+1J4	Jep Holdings Ltd.
+1J5	Hyphens Pharma Intl Limited
+1J7	Jawala Inc.
+1L2	Hiap Seng Ind
+1M8W	Meituan 5xlongub251128
+1MZ	Namcheong
+1Q8W	Nasdaq 7xshortub250623
+1R6	Avi-tech Hldg
+1V3	Mooreast
+1X5W	Aia 5xshortub250430
+1Y1	Vikingoffshore
+40B	Smj International Holdingsltd.
+40E	Spackman Entertainment Grp Ltd
+40F	Alliance Mineral Assetslimited
+40N	Versalink Holdings Limited
+40T	Isec Healthcare Ltd.
+40V	Singapore Edevelopment Ltd
+40W	Zico Holdings Inc.
+41B	Huationg Global Limited
+41F	Gss Energy Limited
+41H	Blackgold Natural Resourcesltd
+41O	Lhn Limited
+41T	Gccp Resources Limited
+42C	Ix Biopharma Ltd.
+42D	Nauticawt Limited
+42E	Choo Chiang Holdings Ltd.
+42F	Cmc Infocomm Limited
+42L	Tlv Holdings Limited
+42N	Ips Securex Holdings Limited
+42R	Jumbo Group Limited
+42S	Astaka Holdings Limited
+42T	The Trendlines Group Ltd.
+42W	China Star Food Group Limited
+42Z	Eindec Corporation Limited
+43A	Gs Holdings Limited
+43B	Secura Group Limited
+43E	Anchor Resources Limited
+43F	Acromec Limited
+43Q	Advancer Global Limited
+44PW	Jd Mb Ecw250804
+44RW	Kepcorp 5xshortub250530
+45IW	Cmb 5xlongub250430
+46CW	Zixin W260623
+47GW	Alibaba Mb Epw241203
+48QW	Hscei 7xshortsg261105
+49B	Amos Group
+49CW	Tencentmbecw250402
+500	Tai Sin Electric Limited
+504	Klw Holdings Ltd
+505	Asiamedic Limited
+508	Fuji Offset Plates Mfg Ltd
+50OW	Hsi 22000mbecw241230
+51AW	Djia 42000mbecw241220
+52PW	Netease 5xshortsg250320
+532	DISA
+533	Abr Holdings Limited
+53W	Attika Group
+540	Tung Lok Restaurants 2000 Ltd
+541	Craft Print International Ltd
+543	Noel Gifts International Ltd
+544	Cse Global Ltd
+546	Medtecs International Corp Ltd
+54MW	Uob Mb Ecw250627
+554	King Wan Corporation Limited
+558	Ums Holdings Limited
+55YW	Hkex Mb Epw250103
+564	Spindex Industries Limited
+566	See Hup Seng Limited
+569	Vicplas International Ltd
+56DW	Geely 5xlongub250930
+56IW	Dbs Mb Ecw250113
+56QW	Alibaba 5xshortsg260513
+570	Transit-mixed Concrete Ltd
+575	Asti Holdings Limited
+579	Oceanus Group Limited
+57GW	Nky 41000mbepw241213
+580	Santak Holdings Limited
+581	Ite Electric Co Ltd
+583	Progen Holdings Ltd
+584	Oakwell Engineering Limited
+585	Asian Micro Holdings Ltd
+594	Loyz Energy Limited
+595	Van Der Horst Energy Limited
+596	Thai Village Holdings Ltd
+5AB	Trek 2000 Int'l Ltd
+5AE	Pollux Properties Ltd.
+5AI	Sunlight Group Hldg Ltd
+5AL	Annica Holdings Limited
+5AU	Ap Oil International Limited
+5B5W	S&p 5350mbepw241220
+5BI	Carriernet Global Ltd
+5BS	Pne Micron Holdings Ltd
+5CF	Okp Holdings Limited
+5CP	Silverlake Axis Ltd
+5CR	Asiatic Group (holdings) Ltd
+5CT	Ecowise Holdings Limited
+5D8W	Dbs Mb Epw250627
+5DD	Micro-mechanics (holdings) Ltd
+5DM	Ying Li Intl Real Estate Ltd
+5DN	Ezra Holdings Limited
+5DO	Sakae Holdings Ltd.
+5DP	Heeton Holdings Limited
+5DS	Megachem Limited
+5DX	Metal Component Engg Ltd
+5E2	Seatrium Ltd
+5EB	Cfm Holdings Limited
+5EF	Adventus Holdings Limited
+5EG	New Lakeside Holdings Limited
+5EN	Midas Hldgs Limited
+5EV	Hosen Group Ltd
+5EW	Pan Asian Holdings Limited
+5F4	Figtree Holdings Limited
+5F7	Hartawan Hldgs Ltd
+5FW	Linair Technologies Limited
+5FX	New Wave Holdings Ltd.
+5G1	Eurosports Global Limited
+5G2	Kimheng Offshore&marine Hldltd
+5G3	Talkmed Group Limited
+5G4	Infinio Group Limited
+5G9	Tritech Group Limited
+5GD	Sunpower Group Ltd.
+5GI	Interra Resources Limited
+5GJ	Ausgroup Limited
+5GZ	Aa Group Holdings Ltd.
+5HG	Oniontech Limited
+5HH	Hln Technologies Limited
+5HT	Communication Design Intl Ltd
+5HV	Metax Engineering Corp Limited
+5I1	Kop Limited
+5I4	Icp Ltd
+5IC	Sing Holdings Limited
+5IE	Lorenzo International Limited
+5IF	Natural Cool Holdings Limited
+5IG	Gallant Venture Ltd.
+5JK	Hiap Hoe Limited
+5JS	Indofood Agri Resources Ltd.
+5KI	Soup Restaurant Group Limited
+5LE	Sitra Holdings (intl) Limited
+5LY	Marco Polo Marine Ltd.
+5MD	Soon Lian Holdings Limited
+5ML	Old Chang Kee Ltd.
+5MZ	Kingsmen Creatives Ltd
+5NF	Mencast Holdings Ltd.
+5NV	Chasen Holdings Limited
+5O9W	Xiaomi 5xlongub250228
+5OC	Koyo International Limited
+5OI	Japan Foods Holding Ltd.
+5OQ	Teho International Inc Ltd.
+5OR	Heatec Jietong Holdings Ltd.
+5OX	Mary Chia Holdings Limited
+5PC	Goodland Group Limited
+5PD	Hengyang Petrochem Log Limited
+5PF	Jason Marine Group Limited
+5PO	Hiap Tong Corporation Ltd.
+5QR	Mann Seng Metal Intl Limited
+5QT	Charisma Energy
+5QY	Net Pacific Fin Hldgs Ltd
+5RA	Asia-pacific Strategic Inv Ltd
+5RC	Es Group (holdings) Limited
+5RE	Smartflex Holdings Ltd
+5RF	Friven & Co. Ltd.
+5SO	Duty Free Internationallimited
+5SR	Zhongmin Baihui Retail Grp Ltd
+5SY	Chew's Group Limited
+5TI	Kitchen Culture Holdings Ltd.
+5TJ	Far East Group Limited
+5TP	Cnmc Goldmine Holdings Limited
+5TT	Keong Hong Holdings Limited
+5UA	Starland Holdings Limited
+5UF	Maxi-cash Fin Svcs Corp Ltd
+5UL	Atlantic Navigation Hldg(s)ltd
+5UN	Sincap Group Limited
+5UX	Oxley Holdings Limited
+5VC	Kori Holdings Limited
+5VI	Logistics Holdings Limited
+5VJ	Halcyon Agri Corporation Ltd
+5VP	Gds Global Limited
+5VS	Hafary Holdings Limited
+5WA	Intl Healthway Corp Limited
+5WF	Isoteam Ltd.
+5WG	Singapore Kitchen Equipmentltd
+5WH	Rex International Holding Ltd
+5WJ	Moneymax Financial Servicesltd
+5WV	Asiaphos Limited
+5XFW	Cnooc 5xlongsg250423
+5ZJW	Hsi 24400mbecw241230
+600	Hyflux Ltd
+6AZB	Astrea Vi3%b310318#
+7QQS	Nz07100s 270301
+8A1	Forise Int
+8AZ	Aztech Gbl
+8E8W	Hsi 7xshortub260630
+8E9W	Jd 5xlongsg250924
+8K7	Ughealthcare
+8R7W	Tencen3xshortub250428us$
+8U7U	Ireit Global Eur
+8W1W	Xiaomi 5xshortsg250515
+8W3W	Meituan Mb Ecw250506
+8Y2W	Jd 5xlongub250127
+8YLS	Nz19100s 390701
+8YY	Biolidics Limited
+91DB	Firstsponsor4.85%pccs#
+92NW	Nasdaq 7xshortub250922
+933W	Sunny Mb Ecw241203
+95DW	Clife 5xshortsg250320
+96DW	Datapulse Tech W271128
+96KW	Meituan 5xshortsg260513
+97XW	Djia 5xshortub250922
+9CI	Capitalandinvest
+9D9W	Hsi 20800mbecw250127
+9E9W	Valuemax W260914
+9G2	Sam Holdings
+9GBW	Xiaomi 5xlongub250930
+9I7	Nosignboard
+9I9W	Pingan Mb Epw250603
+9J2W	Petroch 5xlongub250430
+9NDW	Tencent 5xshortub250127
+9O5W	Alibaba 5xlongsg250924
+9PPW	Petroch 5xshortub250430
+9Q4W	Sgx Mb Epw250627
+9QEW	Tencent 5xshortub250228
+9QX	Beverlyjcg
+9RQR	Clearbridge R
+9T8W	Sunny Mb Ecw241203 65
+9U1W	Meituan Mb Ecw250804
+9UGW	Uob Mb Ecw241227
+9VHW	Tencent 5xshortsg260513
+9W2W	Cosco 5xlongub251031
+9W8B	Na24300e 540601
+9ZIW	Nasdaq 7xlongub250922
+9ZYW	Hstech 7xshortsg260605
+A04	Asl Marine Holdings Ltd
+A05	Avjennings Limited
+A17U	Ascendas Real Estate Inv Trust
+A26	Sinarmas Land Limited
+A30	Aspial Corporation Limited
+A31	Addvalue Technologies Ltd
+A33	Blumont Group Ltd.
+A34	Amara Holdings Ltd
+A35	Abf Spore Bond Index Fund Etf
+A50	Rowsley Ltd.
+A52	Annaik Limited
+A55	Asia Enterprises Holding Ltd
+A78	Liongold Corp Ltd
+A7RU	Cityspring Infrastruct Trust
+A95W	Katrina W281008
+AAJ	Sunmoon Food Company Limited
+ACV	Frasers Hospitality Trust
+ADN	First Sponsor Group Limited
+AFUS	Nx15100z 250601
+AGS	The Hour Glass Limited
+AIY	Ifast Corporation Ltd.
+AJ2	Ouhua Energy Holdings Limited
+AJBU	Keppel Dc Reit
+AOF	Amplefield Limited
+AP4	Riverstone Holdings Limited
+AU8U	Capitaretail China Trust
+AVX	Hl Global Enterprises Limited
+AW9U	First Real Estate Inv Trust
+AWC	Lindeteves-jacoberg Ltd
+AWG	Aei Corporation Ltd
+AWI	Thakral Corporation Ltd
+AWK	Fuxing China Group Limited
+AWM	Shanghai Turbo Enterprises Ltd
+AWV	Captii Limited
+AWX	Aem Holdings Ltd
+AWZ	Multi-chem Limited
+AYN	Global Testing Corporation Ltd
+AYV	Acma Ltd.
+AZA	Ipc Corporation Limited
+AZG	8telecom Intl Holdings Co Ltd
+AZR	United Food Holdings Limited
+AZT	Lottvision Limited
+B0Z	China Fishery Group Limited
+B26	Ban Leong Technologies Limited
+B28	Bonvests Holdings Ltd
+B49	World Precision Machinery Ltd
+B58	Banyan Tree Holdings Limited
+B61	Bukit Sembawang Estates Ltd
+B69	Broadway Industrial Group Ltd
+B73	Global Investments Limited
+B9S	Cosmosteel Holdings Limited
+BAC	Jacks International Limited
+BAI	S I2i Limited
+BAZ	Lion Asiapac Ltd
+BBP	Hor Kew Corporation Limited
+BBW	Azeus Systems Holdings Ltd.
+BCD	China Yuanbang Prop Hldgs Ltd
+BCV	Qian Hu Corporation Limited
+BCY	Powermatic Data Systems Ltd
+BCZ	Travelite Holdings Ltd.
+BDA	Pne Industries Ltd
+BDR	Willas-array Elec (hldgs) Ltd
+BDU	Federal Int(2000) Ltd
+BDX	Gsh Corporation Limited
+BEC	Brc Asia Limited
+BEH	China International Hldgs Ltd
+BEI	Lht Holdings Limited
+BEW	Jb Foods Limited
+BEZ	Beng Kuang Marine Limited
+BFI	Tiong Seng Holdings Limited
+BFK	Pharmesis International Ltd.
+BFT	Fabchem China Limited
+BFU	Tye Soon Ltd
+BGO	Universal Resource & Svcs Ltd
+BHD	China Mining International Ltd
+BHK	Siic Environment Holdings Ltd.
+BHU	Sutl Enterprise Limited
+BIP	Vibrant Group Limited
+BIX	Ellipsiz Ltd
+BJD	Vibropower Corporation Limited
+BJGS	Na16100h 460301
+BJHS	Nx16100f 260601
+BJIS	Nz16100x 360801
+BJV	Yamada Green Resources Limited
+BJZ	Koda Ltd
+BKA	Sin Heng Heavy Machinery Ltd
+BKK	Luxking Group Holdings Limited
+BKV	Dukang Distillers Hldgs Ltd
+BKW	Datapulse Technology Limited
+BKX	Yongmao Holdings Limited
+BKZ	Suntar Eco-city Limited
+BLH	Hai Leck Holdings Limited
+BLR	Darco Water Technologies Ltd
+BLS	Hotung Investment Hldgs Ltd
+BLU	Grp Ltd
+BLZ	Advanced Holdings Ltd.
+BMGU	Bhg Retail Reit
+BMT	New Silkroutes Group Limited
+BN2	Valuetronics Holdings Limited
+BN4	Keppel Corporation Limited
+BNE	Kencana Agri Limited
+BPF	Yhi International Limited
+BQC	Xpress Holdings Ltd
+BQD	Envictus International Hldgltd
+BQF	Xmh Holdings Ltd.
+BQM	Tiong Woon Corp Holding Ltd
+BQN	Bh Global Corporation Limited
+BQP	Southern Packaging Group Ltd
+BRD	Sapphire Corporation Limited
+BRS	Usp Group Limited
+BS6	Yangzijiang Shipbldg Hldgs Ltd
+BSL	Raffles Medical Group Ltd
+BTE	Bund Center Investment Ltd
+BTF	Debao Property Development Ltd
+BTG	Hg Metal Manufacturing Ltd
+BTJ	A-sonic Aerospace Limited
+BTM	Penguin International Limited
+BTOU	Manulife Us Reit
+BTP	Baker Technology Limited
+BTWZ	Hyflux S$500m6%perpcapsec
+BTX	Anchun International Hldgs Ltd
+BTY	Full Apex (holdings) Limited
+BUOU	Frasers Logistics & Ind Trust
+BVA	Top Glove Corporation Bhd
+BVQ	Procurri Corporation Limited
+BWCU	Ec World Reit
+BWM	China Jinjiang Env Hldg Co Ltd
+BXE	Cdw Holding Limited
+BYI	Phillip Sgx Apac Div Reit Etf
+BYJ	Phillip Sgx Apacdiv Reit Etfs$
+C04	Casa Holdings Limited
+C05	Chemical Industries (f.e.) Ltd
+C06	Csc Holdings Ltd
+C07	Jardine Cycle & Carriage Ltd
+C09	City Developments Limited
+C13	Ch Offshore Ltd
+C2PU	Parkwaylife Reit
+C33	Chuan Hup Holdings Limited
+C38U	Capitamall Trust
+C41	Cortina Holdings Limited
+C52	Comfortdelgro Corporation Ltd
+C6L	Singapore Airlines Ltd
+C70	City Developments Ltd Nccps
+C76	Creative Technology Ltd
+C8R	Jiutian Chemical Group Limited
+C9Q	Sinostar Pec Holdings Limited
+CC3	Starhub Ltd
+CDVZ	Krisenergy S$139.464mz240131
+CEDU	Dasin Retail Trust
+CFA	Nikkoam-stc Asia_xj Reit Etf
+CHJ	Uni-asia Group Limited
+CHZ	Hrnetgroup Limited
+CIN	Courage Marine Group Limited
+CJLU	Netlink Nbn Trust
+CJN	British & Malayan Hldg Limited
+CLN	Apac Realty Limited
+CLR	Lion-phillip S-reit Etf
+CMGS	Nx18100a 280501
+CMOU	Keppel-kbs Us Reit
+CNE	Mindchamps Preschool Limited
+COI	Nikkoam-stc Asia_xj Reit Us$
+CRPU	Sasseur Reit
+CTO	Hong Lai Huat Group Limited
+CUEW	S&p 5xlongsg250228
+CUGW	Sti 2xlongsg250529
+CUJW	Djia 5xlongsg250911
+CUMW	Djia 5xshortsg250911a
+CUTW	S&p 7xshortsg241218
+CUZW	Djia 3xshortsg241205us$
+CVEW	Sti 5xlongsg250529
+CVFW	Djia 5xshortsg250911
+CVIW	Hsi 7xshortsg241218
+CVJW	Simsci 5xlongsg260226
+CVMW	Hsi 5xlongsg261029
+CVRW	Hscei 7xshortsg251029
+CVYW	Hstech 7xshortsg251029
+CWBU	Cromwell Reit Eur
+CWCU	Cromwell Reit Sgd
+CWHW	Sti 7xlongsg250529
+CWIW	Djia 5xlongsg250911a
+CWMW	Hstech 5xshortsg241218
+CWPW	Simsci 5xshortsg260226
+CWRW	Hstech 5xlongsg250904
+CWUW	Hstech 5xlongsg261029
+CWXW	Hsi 7xshortsg251029
+CXBW	S&p 5xshortsg250228
+CXGW	Sti 2xshortsg250529
+CXLW	Simsci 7xlongsg260226a
+CXPW	Hsi 7xlongsg251029
+CXS	Uobam Pingan Chinext S$
+CXU	Uobam Pingan Chinext Us$
+CXXW	Nasdaq 7xshortsg261029
+CXZW	Simsci 7xshortsg250716
+CY6U	Ascendas India Trust
+CYAW	S&p 5xlongsg250228a
+CYB	Icbc Csop Cgb Etf Us$d
+CYC	Icbc Csop Cgb Etf S$
+CYGW	Sti 5xshortsg250529
+CYMW	Hstech 5xlongsg241218
+CYNW	Simsci 7xlongsg260226
+CYW	Tricklestar
+CYX	Icbc Csop Cgb Etf Us$a
+CYZW	Simsci 7xshortsg261029
+CZEW	S&p 5xshortsg250228a
+CZGW	Sti 7xshortsg250529
+CZLW	Hsi 5xlongsg250416
+CZNW	Nasdaq 7xshortsg260401
+CZOW	Hscei 7xlongsg250304
+CZRW	Hsi 5xshortsg261029
+CZVW	Djia 7xshortsg261029
+CZZW	Nasdaq 7xshortsg241218
+D01	Dairy Farm Int'l Holdings Ltd
+D03	Del Monte Pacific Limited
+D05	Dbs Group Holdings Ltd
+D07	Spdr Djia Etf Trust
+D5IU	Lippo Malls Indo Retail Trust
+D8DU	First Ship Lease Trust
+DCQW	Hkex 5xshortsg250205
+DCRU	Digicore Reit Usd
+DCUW	Alibaba 5xlongsg250205
+DCVW	Citydev 5xlongsg250226
+DCXW	Venture 5xlongsg250226
+DDSW	Sats 5xlongsg250515
+DEFW	Sats 5xshortsg250515
+DELW	Hsbc 5xshortsg250205
+DENW	Dbs 5xlongsg250226
+DEOW	Dbs 5xshortsg250226
+DEPW	Cmob 5xlongsg250327
+DEVW	Byd 5xlongsg250626
+DEWW	Cosco 5xlongsg250626
+DFKW	Sembcorp 5xlongsg250515
+DFRW	Netease 5xshortsg250205
+DFUW	Genting 5xlongsg250226
+DFWW	Ocbc 5xshortsg250226
+DGMW	Sembcorp 5xshortsg250515
+DHHW	Uob 5xlongsg251023
+DHLU	Daiwa Hse Log Tr
+DHQW	Steng 5xlongsg250515
+DHXW	Galaxy 5xshortsg250205
+DIFW	Ocbc 5xlongsg251023
+DIGW	Steng 5xshortsg250515
+DIMW	Aia 5xshortsg250327
+DIOW	Ocbc 5xlongsg250226
+DIPW	Pingan 5xlongsg250626
+DISW	Alibaba 5xlongsg250904
+DJSW	Uob 5xlongsg250226
+DJVW	Bilibili 5xlongsg250306
+DJZW	Lining 5xlongsg251113
+DKOW	Byd 5xlongsg250904
+DKPW	Alibaba 5xlongsg251113
+DKRW	Xiaomi 5xlongsg251113
+DKVW	Cnooc 5xlongsg251113
+DKZW	Kepcorp 5xlongsg250904
+DLZW	Yzj 5xlongsg241218
+DM0	Psc Corporation Ltd
+DNWW	Wilmar 5xlongsg241218
+DOCW	Hsbc 5xlongsg250203
+DPGW	Sgx 5xshortsg241218
+DPNW	Capinv 5xlongsg260716
+DPPW	Jd 5xlongsg250116
+DPRW	Thaibev 5xlongsg250716
+DPTW	Yzj 5xshortsg250716
+DPZW	Venture 5xshortsg241218
+DQKW	Sembcorp 5xshortsg241218
+DQUW	Byd 5xlongsg250116
+DQVW	Comfort 5xlongsg250716
+DQXW	Sats 5xlongsg260716
+DQYW	Kepcorp 5xshortsg250716
+DQZW	Kuaisho 5xlongsg250904
+DRJW	Galaxy 5xlongsg250626
+DROW	Dbs 5xlongsg250716
+DRPW	Tencent 5xlongsg250716
+DRQW	Sia 5xshortsg250716
+DRRW	Geely 5xlongsg251113
+DRVW	Singtel 5xlongsg251113
+DRX	St Group Food
+DRZW	Venture 5xlongsg241218
+DSRW	Djia 7xlongub250922
+DTIW	Hsbc 5xshortsg241213
+DTMW	Cmob 5xlongsg250213
+DU4	Mermaid Maritime Public Co Ltd
+DUHW	Cmob 5xshortsg250213
+DUKW	Kepcorp 5xshortsg241218
+DUMW	Kepcorp 5xlongsg250410
+DUPW	Sands 5xlongsg250626
+DUWW	Tencent 5xlongsg250904
+DUYW	Xpeng 5xlongsg250306
+DVFW	Genting 5xshortsg241218
+DVKW	Petroch 5xlongsg250410
+DVNW	Sembcorp 5xshortsg250709
+DVSW	Venture 5xlongsg260904
+DVWW	Hkex 5xlongsg251113
+DVXW	Meituan 5xlongsg251113
+DVZW	Singtel 5xshortsg241218
+DWFW	Citydev 5xshortsg241218
+DWGW	Aia 5xlongsg241213
+DWIW	Sembcorp 5xlongsg250410
+DWOW	Byd 5xshortsg241209
+DWYW	Jd 5xlongsg251113
+DXOW	Capinv 5xshortsg241218
+DXVW	Sunny 5xshortsg241209
+DYEW	Citydev 5xlongsg241218
+DYHW	Sembcorp 5xlongsg250709
+DYNW	Kuaisho 5xshortsg250306
+DYSW	Tencent 5xlongsg251113
+DYTW	Lenovo 5xlongsg251113
+DZSW	Petroch 5xshortsg250410
+DZTW	Sia 5xlongsg250709
+DZUW	Geely 5xshortsg241209
+DZVW	Sunny 5xlongsg250904
+E27	Eucon Holding Limited
+E28	Frencken Group Limited
+E3B	Wee Hur Holdings Ltd.
+E5H	Golden Agri-resources Ltd
+E6R	Samko Timber Limited
+E9L	Joyas International Hldgs Ltd
+EAA	Lion-cm Em Asia S$
+EAPS	Nx22100w 320801
+EB5	First Resources Limited
+EBEW	Hscei 7xlongub250430
+ECAW	Meituan 5xlongub251031
+ECSW	Hsi 7xlongsg251218
+EFBW	Hsi 17200mbepw250227
+EG0	Jes International Holdings Ltd
+EGCW	Tencent 5xshortsg250320
+EH5	United Overseas Australia Ltd
+EHG	Econ Healthcare
+EHNW	Hstech 7xshortsg251216
+EHPW	Netease 5xlongsg251216
+EHTW	Wuxibio Mbecw250103
+EHUW	Jd 5xlongub250228
+EHZB	Fptrea 4.49%270916xb#
+EJUS	N522100n 270901
+EKPW	Byd 5xshortub250626
+ELDW	Ocbc Bk Mb Epw250627
+EMI	Emperador Inc.
+EMJW	Alibaba Mb Ecw250603
+ENV	Ls 2 Holdings
+EOVW	Nky 34000mbepw250314
+EPVW	Byd 5xlongub250930
+EQCW	Uob Mb Epw250627
+ER0	Ksh Holdings Limited
+ERJW	Cmob 5xshortub250626
+ES3	Sti Etf
+ESG	Lgi-ospl Slc Etf S$
+ESU	Lgi-ospl Slc Etf Us$
+EVD	Nikkoam-stc Cn Ev Us$
+EVMW	Nasdaq 5xlongub250922
+EVS	Nikkoam-stc Cn Ev S$
+EXXW	Ccb 5xshortsg250320
+F03	Food Empire Holdings Limited
+F10	F J Benjamin Holdings Ltd
+F13	Fu Yu Corporation Ltd
+F17	Guocoland Limited
+F1E	Low Keng Huat (singapore) Ltd
+F34	Wilmar International Limited
+F83	Cosco Corporation (s) Ltd
+F86	Cougar Logistics Corpn Ltd
+F99	Fraser And Neave Limited
+F9D	Boustead Singapore Limited
+FBXW	Meituan 5xshortub250430
+FDWW	Hkex 5xlongub250228
+FESW	Djia 36500mbepw241220
+FGDW	Hsi 18000mbepw250227
+FGIW	Hsbc 5xlongub250127
+FHRW	Nky 36000mbepw241213
+FIHW	Sembind Mbepw250131
+FIMW	Kuaisho 5xlongub251031
+FMXW	Singtelmbepw250131
+FOFW	Byd 5xlongub250321
+FQ7	Jasper Investments Limited
+FQPW	Hsi 23200mbecw250127
+FQTW	Sgx Mb Epw250328
+FRGW	Netease 5xlongub251128
+FRLW	Alibaba 5xshortub250127
+FRQ	Sing Paincare
+FWQW	Meituan 5xshortub251031
+FYFS	N524100x 290401
+G07	Great Eastern Hldgs Ltd
+G0I	Nam Lee Pressed Metal Inds Ltd
+G13	Genting Singapore Plc
+G1N	Lyxor Etf Msci India 10
+G20	Gp Industries Limited
+G3B	Dbs Singapore Sti Etf
+G50	Grand Banks Yachts Limited
+G92	China Aviation Oil(s) Corp Ltd
+GDJW	Hsi 21500mbecw250328
+GEH	Goodwill
+GGTW	Keppelmbepw250328
+GHCW	Netease 5xshortub250321
+GKDW	Hsbc Mbepw241203 62
+GMPW	Citydev Mbecw250328
+GOYW	Byd Mb Epw250103
+GPSW	Dbs 5xshortub250530
+GPUW	Yangzijimbepw241227
+GRE	Uob Ap Grn Reit Us$
+GRN	Uob Ap Grn Reit S$
+GRO	Cgs Fg Csi1000 S$
+GRQ	Don Agro
+GRU	Cgs Fg Csi1000 Us$
+GSD	Gld Sg$
+GU5	China Kunda Tech Holdings Ltd
+GUBW	Meituan 5xshortsg250320
+GUDW	Jd Mb Ecw241203
+GUVW	Xiaomi 5xshortub250321
+GWGW	Jd Mb Ecw250402
+GWSR	Gss Energy R
+H02	Haw Par Corp Ltd
+H07	Stamford Land Corporation Ltd
+H12	Hotel Royal Ltd
+H13	Ho Bee Investment Limited
+H15	Hotel Properties Ltd
+H18	Hotel Grand Central Ltd
+H1N	Lyxor Etf Msci Emerging Mkt 10
+H20	Hoe Leong Corporation Ltd.
+H22	Hong Leong Asia Ltd.
+H30	Hong Fok Corporation Ltd
+H78	Hongkong Land Holdings Limited
+HAOW	Hsi 5xshortub251031
+HBBD	Alibaba Hk Sdr 5to1
+HBHW	S&p 6200mbecw250321
+HBND	Bank Of Cn Hk Sdr 1to1
+HBWW	Sunny 5xlongub250127
+HCLW	Hscei3xlongma260327us$
+HD9	Dbxt Ftse Vietnam Etf 10
+HDRW	Hsi 21400mbecw241230
+HEYW	Hsbc Mbecw241203 75
+HFQW	Xiaomi Mbecw241203
+HHHW	Hsi3xlongma260327us$
+HIEW	Sunny 5xlongub250930
+HIOW	Cmob 5xshortsg250515
+HKB	Amtd Ib Ov
+HKCW	Sands 5xlongub250930
+HKKW	Clife Mbepw250603
+HLJW	Netease 5xlongsg250924
+HLKW	Sia 5xlongub250530
+HLS	Helens
+HMN	Ascott Trust
+HNVW	Byd3xshortub250428us$
+HOJW	Hsi 23400mbecw241230
+HQCW	S&p 7xshortsg260324
+HQLW	Meituan 5xshortub250127
+HQU	Oiltek
+HQXW	Ix Biopharmaw260718
+HSHD	Hsbc Hk Sdr 5to1
+HSNW	Hsi 20000mbecw250127
+HSS	Lion-ocbc Sec Hstech Us$
+HST	Lion-ocbc Sec Hstech S$
+HTCD	Tencent Hk Sdr 10to1
+HURW	Meituan 5xshortub250626
+HUTW	Geely 5xlongub250630
+HWAW	Hsi 19200mbepw250227
+HYDD	Byd Hk Sdr 10to1
+HYNW	Sands 5xshortsg250320
+i06	Intraco Limited
+i07	Isdn Holdings Limited
+i11	Ipco Int'l Limited
+i49	Ifs Capital Limited
+I98	Is Msci India 100
+IAIW	Tencentmbepw241203
+ICM	Ishares Axjclimate S$
+ICU	Ishares Axjclimate Us$
+IESW	Dbs Mb Ecw250328
+IFAW	Jd 5xlongub250930
+IFDW	Hsi 7xlongub250228
+IFHW	Lining 5xlongub251128
+IFKW	Geely Mb Epw250703
+IHHW	Hsi3xshortma260327us$
+IHJW	Nasdaq 22000mbecw241220
+IHSW	Hscei3xshortma260327us$
+IIIW	Sia 5xlongsg251216
+IJEW	Clife Mbecw250804
+IJIW	Pingan Mb Ecw250603
+IKQW	Alibaba Mb Ecw250402
+IPTW	Apple 3xlongsg261204us$
+IQEW	Hsi 21600mbepw241230
+IQQW	Nasdaq3xshortma260327us$
+ISPW	S&p3xshortma260327us$
+ISTW	Hstech3xshortma260327us$
+ITQW	Xiaomi 5xshortub250228
+ITRW	Hkex 5xlongub250127
+ITXW	Nasdaq 5xlongsg251216
+IX2	Pec Ltd.
+IXJW	Alibaba 5xshortsg250320
+IZGW	Pacific Radiancew270919
+J03	Jadason Enterprises Ltd
+J2T	Hock Lian Seng Holdings Ltd
+J36	Jardine Matheson Hldgs Ltd
+J69U	Frasers Centrepoint Trust
+J85	Cdl Hospitality Trusts
+J91U	Cambridge Industrial Trust
+JEGW	Pingan Mb Epw241203
+JGQW	Meituan Mb Ecw241203
+JHXW	Hsi 5xlongub251031
+JJJ	A Lion-nomura Japan S$
+JK8	United Sse 50 China Etf
+JLB	Grand Venture Technology Ltd
+JLDW	Hsi 15000mbepw250328
+JLJW	Mscijp3xlongma270212us$
+JMFW	Geely 5xlongub250228
+JQPW	Nky 37000mbepw250314
+JRTW	Ccb 5xlongub250430
+JUS	A Lion-nomura Japan Us$
+JVEW	Sunny 5xlongsg251216
+JVKW	Geely Mb Ecw241203
+JYEU	Lendlease Reit
+K03	Khong Guan Flour Milling Ltd
+K29	Karin Technology Hldgs Limited
+K3MD	Netease.com Adr 10
+K3RD	Ctrip.com International Adr 10
+K3SD	Baidu.com Adr 10
+K6S	Prudential Plc
+K71U	K-reit Asia
+K75	Koh Brothers Group Limited
+KDNW	Alibaba Mb Epw250603
+KDOW	Clife Mbecw241203
+KEWW	Alibaba Mb Ecw250603 125
+KGIW	Baidu 5xshortsg250515
+KGRW	Kuaisho 5xshortub250228
+KHWW	Alibab3xlongub250428us$
+KJ5	Bbr Holdings (s) Ltd
+KJ7	Dbxt Msci Indonesia Etf 10
+KJZW	Vikingw270628
+KLOW	Aia 5xlongsg250423
+KNXW	Hsi 7xlongub241231
+KOUW	Singtelmbepw250328
+KQTW	Clife Mbepw241203
+KRWW	Hsi 23600mbecw250227
+KSMW	Hkex Mb Ecw241203
+KUH	Tsh Corporation Ltd
+KUO	International Cement Groupltd.
+KUSW	Lining Mbecw250703
+KUTW	Meituan 5xshortsg250515
+KUVW	Hsi 17600mbepw250127
+KUX	Dlf Holdings Limited
+KV4	Dbxt Iboxx Singapore Etf 5
+KYB	Foodinnovators
+KZYW	Lenovo Mb Epw250506
+L02	Manhattan Resources Limited
+L19	Lum Chang Holdings Limited
+L23	Enviro-hub Holdings Ltd
+L38	L.c.development Ltd
+LBPW	Byd 5xshortub250430
+LCGW	Baidu Mb Epw250402
+LCS	Csop Low Carbon S$
+LCU	Csop Low Carbon Us$
+LG9	Dbxt Msci China Trn Etf 10
+LIW	Eagle Hospitality Trust
+LJ3	Overseas Union Enterprise Ltd
+LJGW	Seatrium Mb Ecw241227
+LLYW	Ganfenglit Mb Ecw241203
+LMS	Lms Compliance
+LQRW	Meituan 5xlongub241231
+LS9	Leader Environmental Tech Ltd
+LSS	Phil Long Simsci2x S$
+LSU	Phil Long Simsci2x Us$
+LTVW	Nky 39000mbepw250314
+LUY	Raffles Infrastructurehldgsltd
+LVR	17live Group
+LWHW	Ocbc Bk Mb Epw241202
+LXDW	Kuaisho 5xlongub250228
+LYAW	Sunny 5xlongub250626
+LYY	Sinocloud Grp
+M01	Metro Holdings Limited
+M03	Miyoshi Precision Limited
+M04	Mandarin Oriental Intl Ltd
+M05	Mtq Corporation Limited
+M11	Mfg Integration Technology Ltd
+M14	Innotek Limited
+M15	Matex International Limited
+M1GU	Sabana Shari'ah Compliant Reit
+M44U	Mapletree Logistics Trust
+M62	Cimb Ftse Asean40 100
+MACW	Apple 3xlongsg261006
+MBH	Nikkoam Sgd Ig Corp Bond Etf
+MCN	Phil-cu Ms China A50 S$
+MCS	Phil-cu Ms China A50 Us$
+MCZW	Sands 5xshortub250127
+MDWW	Cmb 5xlongsg251023
+MDXW	Nky 40000mbecw241213
+ME8U	Mapletree Industrial Trust
+MEAW	Hsi 7xlongub260130
+MF6	Mun Siong Engineering Limited
+MGCW	Jd Mb Epw241203
+MIJ	Alliance Healthcare Group Ltd
+MJHW	Cmob 5xlongub250228
+MMGW	Hsi 25200mbecw250627
+MMS	Phillip Mm S$
+MMT	Phillip Mm Us$d
+MNCW	Kuaisho 5xlongub251128
+MNSW	Tencent 5xlongub251128
+MOFB	Nc22300w 720801
+MR7	Nordic Group Limited
+MV4	Mewah International Inc.
+MVKW	Galaxy 5xshortub250127
+MVLW	Tencen3xlongub250428us$
+MXNU	Elitecomreit Gbp
+MYLB	Addvalue 6%271104xb#
+MZAW	Dbs Mb Epw250307
+MZH	Nanofilm
+N01	Neratelecommunications Ltd
+N02	Nsl Ltd.
+N08	New Toyo Int Hldgs Ltd
+N0Z	Combine Will Intl Hldgs Ltd
+N2H	Hyflux 6% Cum Pref Class A 10
+N2IU	Mapletree Commercial Trust
+N32	Nippecraft Limited
+N33	Nomura Holdings Inc
+N5YD	Mufj Financial Adr 10
+N6DD	Mizuho Financial Adr 10
+N6FD	Toyota Motor Adr 10
+N6M	Ishares Usd Asia Bond Etf
+NBAW	Wuxibio Mbepw241203
+NC2	Sri Trang Agro-industry Pcl
+NCTW	Nasdaq 7xshortsg260324
+NDEW	Sands Mb Epw241203
+NEAW	Geely 5xshortub250127
+NEX	Reclaims Global Limited
+NHD	Jubilee
+NHOW	Hkex Mb Ecw250603
+NIO	Nio Inc. Usd Ov
+NLC	5e Resources
+NLJW	Meituan Mb Ecw241203 95
+NLPW	Pingan 5xshortub250127
+NMCW	Meituan 5xlongub250228
+NO4	Dyna-mac Holdings Ltd.
+NPEW	Seatrium Mb Ecw250430
+NPL	Niks Prof
+NPMW	Hsi 19400mbepw241230
+NPNW	Nasdaq 5xshortub250922
+NPW	Malaysia Smelting Corp Bhd
+NQEW	Alibaba 5xlongub250630
+NR7	Raffles Education Corp Ltd
+NS8U	Hutchison Port Holdings Trust
+NUGW	Meituan 5xlongsg250924
+NUIW	Byd 5xlongub250430
+NVDW	Nvda 3xshortsg261006
+NVIW	Nvda 3xlongsg261006
+NVLW	Tencentmbecw241203
+NVTW	Nvda 3xlongsg261204us$
+NWDW	Jd 5xshortub250127
+NXR	Iwow Tech
+O08	Ossia International Ltd
+O10	Orchard Parade Holdings Ltd
+O39	Oversea-chinese Banking Corp
+O5RU	Aims Amp Cap Industrial Reit
+O6Z	Lonza Group Ltd
+O87	Spdr Gold Shares
+O9A	Dbxt Msci Singapore Im Etf 10
+O9E	Parkson Retail Asia Limited
+O9P	Ishares Usd Asia Hy Bond Etf
+OAJ	Fortress Minerals Limited
+ODBU	Utdhampshreitusd
+OHKW	Clife Mbecw250703
+OL9S	Nz10100f 300901
+OMK	Vividthree Holdings Ltd.
+OOPW	Hstech 5xshortub250430
+OOSW	Tencent 5xlongub250228
+OTS	Ots Holdings
+OTX	Medinex Limited
+OU8	Centurion Corporation Limited
+OV8	Sheng Siong Group Ltd
+OVJW	Hstech 3800mbepw241230
+OVQ	Phillip Sing Income Etf
+OVVW	Jd 5xshortub250430
+OXAW	Hsbc Mbepw241203
+OXCW	Byd Mb Epw241203
+OXMU	Prime Us Reitusd
+OYCW	Dbs Mb Ecw250728
+OYY	Propnex Limited
+OZDW	Meituan 5xlongsg251216
+P11	Pacific Andes Resources Devltd
+P15	Pacific Century Regional Devts
+P34	Petra Foods Limited
+P36	Pan Hong Property Group Ltd
+P40U	Starhill Global Reit
+P52	Pan-united Corporation Ltd
+P5P	Cimb S&p Asia Pacific Dividend
+P74	China Kangda Food Company Ltd
+P7VU	Hutchison Port Hldgs Trust S$
+P8A	Cordlife Group Limited
+P8Z	Bumitama Agri Ltd.
+P9D	Civmec Limited
+PA3	Ta Corporation Ltd
+PAMW	Dbs Mb Ecw250326
+PBSW	Vibropower W250116^
+PCSW	Jd Mb Epw250603
+PCT	Pc Partner
+PH0	Hatten Land
+PH1S	Na12100n 420202
+PHHW	Alibaba 5xlongub250930
+PISW	Cosco 5xshortub250430
+PMGW	Uob 5xlongub250530
+PMOW	Kuaisho Mb Epw250103
+PODW	Apple 3xshortsg261006
+POQW	Nasdaq 5xshortsg251216
+POUW	Nasdaq 19000mbepw250321
+PPC	3cnergy Ltd
+PPPW	S&p3xlongma260327us$
+PRH	Citicode Ltd
+PRLW	Hsi 18800mbepw250127
+PRZW	Dbs Mb Ecw241227
+PU6D	Hsbc Adr 10
+PUYW	Nio Mbecw250521
+PWGW	Ocbc Bk Mb Ecw250328
+PWJR	Advancedsys R1
+PYCW	Meituan Mb Ecw250204
+PYDW	Baidu 5xlongsg250924
+PYKW	Mscijp3xshortma270212us$
+Q01	Qaf Ltd
+Q0F	Ihh Healthcare Berhad
+Q0X	Ultro Technologies Limited
+Q53W	Pingan 5xlongub250626
+Q5T	Far East Hospitality Trust
+QARW	Dbs 5xlongsg251023
+QC7	Q & M Dental Group (s) Limited
+QDSW	Sats 5xshortub250630
+QES	Chinasunsine
+QFHW	Sembcorp 5xlongub250530
+QFYW	Byd 5xlongub241231
+QGGW	Hsi 7xshortub250228
+QK9	Is Msci India 100 S$
+QKPW	Wuxibio Mbecw241203
+QL2	Ishares Usd Asia Bond Etf S$
+QL3	Ishares Usd Asia Hy Bond Etfs$
+QMPW	Nio Mbecw250226
+QNFW	Lenovo Mb Ecw250304
+QNS	Southernalliance
+QPCW	Aia 5xlongub250430
+QQQW	Nasdaq3xlongma260327us$
+QR9	Cimb S&p Asia Pac Dividend S$
+QRCW	Baidu Mb Ecw250804
+QS0	Cimb Ft Asean 40 100 S$
+QS9	Radiance Group Limited
+QTTW	Anta 5xlongub250430
+QXPW	Hsi 5xshortub250430
+QZG	Accrelist Ltd
+R14	Ramba Energy Limited
+R1NS	Nz13100v 330901
+R28W	Byd Mb Ecw241203
+RAYW	First Sponsor W290321
+RBBW	Lining Mbepw241203
+RC5	Triyards Holdings Limited
+RCU	Revez
+RDAW	Pingan Mb Ecw250804
+RDR	Incredible
+RE4	Geo Energy Resources Limited
+RFVW	Venture 5xlongub250530
+RGMW	Sunny 5xshortub250127
+RGUW	Steng Mbecw241203
+RHBW	Byd3xlongub250428us$
+RNXW	Sunny 5xlongub250430
+RQ1	Overseas Education Limited
+RQGW	Hsi 7xlongsg251216
+RQMW	Dbs Mb Epw250311
+RQWW	Pingan Mb Ecw241203
+RXS	Pacificradiance
+RYOW	Jd Mb Ecw250103
+RYQW	Lenovo 5xlongub250430
+RYX	Jd Autocallsg250603
+S07	Shangri-la Asia Limited
+S08	Singapore Post Limited
+S19	Singapore Shipping Corp Ltd
+S20	Straits Trading Co. Ltd
+S23	Singapura Finance Ltd
+S27	Spdr S&p 500 Etf Trust
+S29	Stamford Tyres Corporationltd
+S2D	Tosei Corporation
+S35	Sing Investments & Finance Ltd
+S3N	Okh Global Ltd.
+S41	Hong Leong Finance Limited
+S44	Engro Corporation Limited
+S45U	Singapore Index Fund
+S56	Samudera Shipping Line Ltd
+S58	Sats Ltd.
+S59	Sia Engineering Co Ltd
+S61	Sbs Transit Ltd
+S63	Singapore Tech Engineering Ltd
+S68	Singapore Exchange Limited
+S69	Serial System Ltd
+S71	Sunright Ltd
+S7OU	Asian Pay Television Trust
+S7P	Soilbuild Construction Grp Ltd
+S85	Straco Corporation Limited
+S9B	Tee Land Limited
+SCY	Csop Star&chinext50 S$
+SEJ	Noontalk Media
+SES	Cph Ltd.
+SGMW	Hsi 22000mbecw250227
+SGR	Sheffield Green
+SHD	Csop Div Etf S$
+SHVS	N523100w 280801
+SHWW	Hstech 5xlongub250430
+SJY	Megroup Ltd.
+SK3	Krisenergy Ltd.
+SK6U	Sph Reit
+SLVW	Netease 5xshortub251128
+SMIW	Wuxibio 5xshortub250430
+SMVW	Yangzijimbecw250417
+SNEW	Cnooc 5xlongub250228
+SNSW	Cmb 5xlongub251031
+SNVW	Dbs 5xlongub250530
+SO7	Yangzijiang Shipbldg Hldgs Rmb
+SOUW	Hsbc Mbecw250804
+SPXW	S&p 7xlongsg260226
+SQQ	Csop Sea Tech Etf S$
+SQU	Csop Sea Tech Etf Us$
+SRHW	Sgx Mb Ecw250627
+SRRW	Hsbc Mbepw250603
+SRT	Csop Iedge Sreit Etf S$
+SRU	Csop Iedge Sreit Etf Us$
+SSKW	Tencent 5xlongub250930
+SSS	Phil Short Simsci-1x S$
+SSU	Phil Short Simsci-1x Us$
+STC	Comba
+STG	Sri Trang Gloves
+SYBW	Galaxy 5xlongub250430
+T09	Tt International Limited
+T12	Tat Seng Packaging Group Ltd
+T13	Rh Petrogas Limited
+T14	Tianjin Zhong Xin Pharm Group
+T15	Tan Chong Int'l Ltd
+T24	Tuan Sing Holdings Limited
+T41	Telechoice International Ltd
+T43	Techcomp (holdings) Limited
+T4B	Sino Grandness Food Ind Gp Ltd
+T55	Transpac Industrial Hldgs Ltd
+T6I	Valuemax Group Limited
+T82U	Suntec Real Estate Inv Trust
+T8FS	Ny14100e 290701
+TADD	Ais Th Sdr
+TATD	Aot Th Sdr
+TCCW	Hsi 5xlongub250430
+TCHW	Sunny 5xlongub250321
+TCPD	Cp All Th Sdr
+TCU	Creditbureauasia
+TDED	Delta Th Sdr
+TDNW	Sia Mb Epw250328
+TEMB	Temasek 1.8% 261124xb#
+TEWW	Sembind Mbecw250430
+TGED	Gulf Th Sdr
+TID	Xt Mschina S$
+TKKD	Kasikorn Bank Th Sdr
+TOAW	Ocbc Bk Mb Epw250307
+TPED	Pttep Th Sdr
+TPIW	Hstech 4800mbecw241230
+TQ5	Frasers Centrepoint Limited
+TQQW	Nasdaq 7xlongsg260226
+TRUW	Tencentmbecw250804
+TS0U	Oue Commercial Reit
+TSCD	Siam Cement Th Sdr
+TSGW	Tencent 5xlongub241231
+TSH	Tsh Resources
+TSTW	Tesla 3xlongsg261204us$
+TSXW	Tesla 3xshortsg261006
+TSYW	Tesla 3xlongsg261006
+TTTW	Hstech3xlongma260327us$
+TVBW	Meituan 5xlongub250630
+TVV	Artivision
+TWL	Memiontec Hldgs
+U06	United Industrial Corp Ltd
+U09	Upp Holdings Limited
+U10	Uob-kay Hian Holdings Limited
+U11	United Overseas Bank Ltd
+U13	United Overseas Insurance Ltd
+U14	Uol Group Limited
+U77	Sarin Technologies Ltd
+U96	Sembcorp Industries Ltd
+U9E	Hankore Environment Tec Grpltd
+UCZW	Uob Mb Ecw250328
+UD1U	Ireit Global
+UD2	Japfa Ltd.
+UDOW	Djia 7xlongsg260226
+UHTW	Tencentmbepw250603
+UIX	China Envres
+UKMW	Nky 44000mbecw250314
+ULBW	Jd 5xshortsg260513
+ULNW	Baidu Mb Ecw250204
+UMCW	Hstech 7xlongsg261105
+UORW	Meituan 5xshortub250228
+URR	Sim Leisure Group Ltd.
+USAW	Amzn 3xlongsg261006
+USBW	Amzn 3xshortsg261006
+USDW	Meta 3xlongsg261006
+USFW	Meta 3xshortsg261006
+USGW	Msft 3xlongsg261006
+USHW	Msft 3xshortsg261006
+USJW	Alphab 3xlongsg261006
+USKW	Anta Mbecw241203
+USPW	Alphab 3xshortsg261006
+USQW	Amzn 3xlongsg261204us$
+USRW	Amzn 3xshortsg261204us$
+USWW	Msft 3xlongsg261204us$
+USYW	Alphab 3xlongsg261204us$
+UUK	Pasture Holdings
+UUZW	Nasdaq 18500mbepw241220
+UV1	Hisaka Holdings Ltd.
+UVJR	Advancedsys R
+UYEW	Keppelmbecw250328
+V03	Venture Corporation Limited
+V2Y	Synagie Corporation Ltd.
+V3M	Metech International Ltd
+V5Q	Soilbuild Constr
+V5TW	Kuaisho Mb Ecw250103
+V6QW	Sia 5xshortub250530
+V7AB	Astrea7a1 4.125%320527#
+V7BB	Astrea7b 6%320527#
+V7R	Resourcesgbl
+V7SW	Hsi 21200mbecw250227
+V8Y	Quantum Health
+VC2	Olam Group
+VC7W	Sunny 5xlongsg250423
+VD6W	Lining Mbecw241203
+VFNW	Meituan 5xshortub260529
+VHGW	Sgx 5xlongsg251216
+VHHR	H2g Green R
+VHXW	Hsi 7xshortsg261105
+VI2	Tc Auto
+VJLW	Byd 5xshortub241231
+VKIW	Wilmar Mb Ecw250530
+VLDW	Geely Mb Ecw250103
+VLSW	Byd 5xlongsg251216
+VLVW	H2g Green W271211
+VNBW	Wilmar 5xlongub250630
+VND	Cf Vn 30 Sc Etf Us$
+VNM	Cf Vn 30 Sc Etf Sg$
+VODW	Dbs Mb Ecw250627
+VPYW	Jd 5xshortsg250320
+VQBW	Singtelmbecw250630
+VR2W	Venture Mb Ecw241230
+VSHW	Hkex Mb Ecw250103
+VT2W	Vertex Spac W291231
+VT6W	Hstech 5xlongub251031
+VUQW	Alibab3xshortub250428us$
+VVL	Alphadx
+VYUW	Sands 5xlongsg250515
+W05	Wing Tai Hldgs Ltd
+W1XW	Incredible W240204
+W3VW	Hstech 5300mbecw250328
+W4UW	Wuxibio Mbecw241203 22
+W5UB	Rafflesed 6%cb270923
+W6HW	Dbs Mb Epw250303
+W6LW	Sunny 5xlongub250630
+W7WW	Nasdaq 20000mbecw241220
+W8KB	Gsh Cb6%251011
+W8OW	Hstech 7xshortsg261105
+W8PW	Hkex 5xshortub250127
+W9KW	Hscei 7xlongsg251218
+W9QW	Hsi 19600mbepw250127
+WA9W	Alibaba 5xlongub241231
+WBQW	Hsi 7xlongub251031
+WCLW	Meituan Mb Epw241203
+WG4W	Capinv 5xlongub250630
+WGFW	Aia 5xlongub250626
+WJ9	Advancedsystems
+WJBW	Anta Mbepw241203
+WJDW	Sunny Mb Epw241203
+WJP	Vicom Ltd
+WJTW	Sgx Mb Ecw250328
+WKS	Winkingstudios
+WLXW	Hstech 4000mbecw241230
+WMDW	Clife Mbecw250603
+WMGW	Meituan Mb Epw250603
+WNLW	Pingan 5xshortub250228
+WOJW	Hkex Mb Epw241203
+WPBW	Cosco 5xlongub250430
+WPC	Vallianz Holdings Ltd
+WQBW	Singtel 5xlongub250630
+WTNW	Hscei 7xshortub250430
+WVJ	Ntegrator
+WXGW	Cosco 5xshortub251127
+WYBW	Wuxibio 5xshortub251128
+WYHW	Hstech 7xlongsg261105a
+X1HW	Yangzijimbecw241227
+X1TW	Baidu 5xlongub250626
+X5HW	Pingan 5xlongub250228
+X6CW	Wilmar 5xshortsg250320
+X7IW	Hsi 26000mbecw241230
+XAPW	Nky 45000mbecw241213
+XBFW	Alibaba 5xlongub250430
+XBJW	Lenovo 5xshortub250430
+XBNW	Jd 5xlongub250630
+XCF	Ktmg Limited
+XDLW	Sia Mb Ecw250131
+XG5W	Djia 41500mbepw250321
+XHHW	Cnooc 5xshortsg250320
+XHMW	Hstech 7xshortub261130
+XHV	Axington Inc.
+XIBW	Singtelmbecw250131
+XIRW	Kuaisho 5xlongsg251216
+XJB	Ghy Culture
+XKJW	Hsbc 5xlongub250228
+XMDW	Kepcorp 5xlongub250530
+XMHW	Hkex 5xlongub250626
+XOXW	Ocbc Bk Mb Ecw250627
+XP5W	S&p 5800mbecw241220
+XR6W	Tencent 5xshortub250321
+XSVW	Wilmar Mb Ecw250228
+XVG	$ Aedge Group
+XWA	Aem Usd
+XWEW	Hscei 7xlongub251031
+XZIW	Gentingsmbecw250228
+XZL	Ara Us Hospitality Trust
+Y03	Yeo Hiap Seng Ltd
+Y06	Youcan Foods International Ltd
+Y0ZW	Djia 7xshortsg260324
+Y1CW	Petroch 5xshortsg250320
+Y1WW	Djia 7xshortub261221
+Y35	Sun East Group Limited
+Y3D	Mdr Limited
+Y45	Singapore Windsor Holdings Ltd
+Y4GW	Ganfeng 5xlongsg250423
+Y5AW	Alibaba Mb Ecw241203
+Y7VW	Hsi 15500mbepw241230
+Y8E	Samurai 2k
+Y92	Thai Beverage Public Co Ltd
+Y9SW	Lining Mbecw250103
+YCPW	Hsbc 5xshortub250228
+YF2W	Nio Mbecw250423
+YF8	Yzj Fin Hldg
+YGXR	Gss Energy R1
+YI1W	Pingan Mb Ecw250103
+YIQW	Genting 5xlongub250530
+YJXW	Hsbc 5xshortub250626
+YJZW	Pingan 5xlongsg251216
+YK1W	Hstech 4200mbepw250328
+YK9	Ykgi
+YKVW	Galaxy 5xlongsg250515
+YL5W	Hsi 21800mbecw250127
+YLD	Lion-ospl Apac Fin S$
+YLU	Lion-ospl Apac Fin Us$
+YMAW	Kuaisho 5xshortub251127
+YS5W	Citydev 5xlongub250530
+YT4W	Tencent 5xlongub250430
+YUEW	Dbs Mb Epw241202
+YUIW	Nasdaq 22500mbecw250321
+YVAW	Cmb 5xshortsg250320
+YVRW	Hstech 5xshortsg261105
+YW4W	Hsi 24400mbecw250227
+YWVW	Hsi 18200mbepw241230
+YYB	Arion Entertainment Spore Ltd
+YYN	Platocapital
+YYR	Lion-ospl China L Cny
+YYY	Lion-ospl China L S$
+YZEW	Djia 7xshortub250922
+YZMW	Hkex Mb Epw250603
+Z1AB	Astrea8a1 4.35%390719#
+Z25	Yanlord Land Group Limited
+Z2AB	Astrea8a2 6.35%390719#
+Z3IW	Uob Mb Epw250328
+Z3RW	Beng Kuang W270904^
+Z4D	Medilifestyle
+Z59	Yoma Strategic Holdings Ltd
+Z5MW	Cmob 5xlongub251031
+Z74	Singtel
+Z77	Singtel 10
+Z9UW	Keppelmbecw241227
+ZB9	Unionsteel
+ZCIW	Aia Mbepw241203
+ZCLW	Pingan 5xlongub251031
+ZFGS	Na21200w 511001
+ZHD	Nikkoam-icbcsg Cnb Us$
+ZHS	Nikkoam-icbcsg Cnb S$
+ZHY	Nikkoam-icbcsg Cnb Cny
+ZKX	Ever Glory
+ZL8S	Na20100f 500301
+ZLYW	Hsi 20600mbepw241230
+ZNPW	Sats Mb Ecw250328
+ZP6W	Steng Mbecw250417
+ZRVW	Singtelmbecw250328
+ZRYW	Dbs Mb Ecw250321
+ZS6W	Tencent 5xlongsg251216
+ZSZW	Hsbc Mbecw241203
+ZWAW	Alibaba 5xshortub251127
+ZXY	Alpina Holdings
+ZYBW	Hsi 7xshortsg260605
