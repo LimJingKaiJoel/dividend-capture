@@ -1,6 +1,6 @@
 from datetime import date
 import pandas as pd
-from helpers import get_dividends, load_data
+from helpers import get_dividends
 
 # returns a list of expected ex date and amount
 def get_expected_ex_date(dividends):
@@ -19,6 +19,9 @@ def get_expected_ex_date(dividends):
     
     result = []
     result.append(expected_ex_date.replace(year=expected_ex_date.year + 1))
-    result.append(expected_payout)
+    result.append(float(expected_payout))
 
     return result
+
+dividends = get_dividends('A17U.SI')
+print(get_expected_ex_date(dividends))

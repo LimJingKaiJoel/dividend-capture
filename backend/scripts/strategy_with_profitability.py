@@ -1,7 +1,8 @@
 from helpers import get_dividends, get_price_history
 from get_ex_date import get_expected_ex_date
 import pandas as pd
-from datetime import date, timedelta
+from datetime import date, timedelta, datetime
+
 '''
 average yield for this stock for dividend capture: 
 if positive, when to buy (show big recommendation: buy on D-2, sell on D+3)
@@ -30,7 +31,7 @@ def optimal_strategies(strategy_duration, dividends, buy_metric, sell_metric, pr
     dividends = dividends[dividends.index > today - timedelta(days = strategy_duration)]
     
     # Create empty df with my column names
-    columns = ['id', 'ex-date', 'buy_date', 'sell_date', 'capture_yield']
+    columns = ['id', 'ex-date', 'buy_date', 'sell_date', 'capture_yield', 'profitable_percentage', 'average_profit', 'possible_desired_profit']
     rows = []
     id = 1
 
@@ -45,9 +46,22 @@ def optimal_strategies(strategy_duration, dividends, buy_metric, sell_metric, pr
         dividend_value = dividends[dividends.index == dividend_date].iloc[0]
 
         strategy_info = optimal_strategy_single_date(dividend_date, dividend_value, buy_metric, sell_metric, price_history, hold_threshold, desired_profit_percentage)
-        dict_to_df['buy_date'] = strategy_info[0]
-        dict_to_df['sell_date'] = strategy_info[1]
-        dict_to_df['capture_yield'] = strategy_info[2]
+        
+        # handle case where smallest timeframe is empty
+        smallest_timeframe = strategy_info[3]
+        if not smallest_timeframe:
+            dict_to_df['buy_date'] = strategy_info[0]
+            dict_to_df['sell_date'] = strategy_info[1]
+            dict_to_df['capture_yield'] = strategy_info[2]
+        else:
+            dict_to_df['buy_date'] = smallest_timeframe[0]
+            dict_to_df['sell_date'] = smallest_timeframe[1]
+            dict_to_df['capture_yield'] = smallest_timeframe[2]
+
+        dict_to_df['profitable_percentage'] = strategy_info[4]
+        dict_to_df['average_profit'] = strategy_info[5]
+        dict_to_df['possible_desired_profit'] = dict_to_df['capture_yield'] > desired_profit_percentage
+    
 
         # add into the list of rows, to be initialised into a pandas df later on
         rows.append(dict_to_df)
@@ -60,6 +74,12 @@ def optimal_strategies(strategy_duration, dividends, buy_metric, sell_metric, pr
 # returns a list of [-2, +4], where you buy on D-2 and sell on D+4
 # returns 
 def optimal_strategy_single_date(dividend_ex_date, dividend_value, buy_metric, sell_metric, price_history, hold_threshold, desired_profit_percentage):
+    total_possibilities = 0
+    profitable_possibilities = 0
+    average_profit_percentage = 0
+
+    smallest_timeframe = []
+
     dividend_ex_date = dividend_ex_date.replace(year = dividend_ex_date.year - 1)
 
     buy = 1
@@ -90,15 +110,28 @@ def optimal_strategy_single_date(dividend_ex_date, dividend_value, buy_metric, s
                 # print("Profit taken: ", profit, "   Target profit: ", desired_profit_value)
                 buy = shift - size
                 sell = shift
-                return [buy, sell, profit_percentage]
+                smallest_timeframe.append(buy)
+                smallest_timeframe.append(sell)
+                smallest_timeframe.append(profit_percentage)
             
             # If not, keep track if it's the max, in case we don't ever find a window that hits our desired profit, we want to return
             if profit_percentage > max_profit_percentage:
                 max_profit_percentage = profit_percentage
                 buy = shift - size
                 sell = shift
+            
+            if profit_percentage > 0:
+                profitable_possibilities += 1
+            
+            average_profit_percentage += profit_percentage
+            total_possibilities += 1
 
-    return [buy, sell, max_profit_percentage]
+    percentage_profitable = profitable_possibilities * 100.0 / total_possibilities
+    average_profit_percentage /= total_possibilities
+    print(percentage_profitable, profitable_possibilities)
+
+    # note smallest_timeframe might be empty -- to check in optimal_strategies method that calls this method
+    return [buy, sell, max_profit_percentage, smallest_timeframe, percentage_profitable, average_profit_percentage]
         
 # This method returns -inf if either the buy date or sell date is not a trading day (weekends or holidays)
 def get_profit_percentage(buy_date, sell_date, buy_metric, sell_metric, price_history, dividend_value):
