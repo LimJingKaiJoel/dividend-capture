@@ -1,6 +1,6 @@
 from datetime import date
 import pandas as pd
-from helpers import get_dividends, load_data
+from helpers import get_dividends
 
 # returns a list of expected ex date and amount
 def get_expected_ex_date(dividends):

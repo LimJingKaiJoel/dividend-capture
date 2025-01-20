@@ -1,5 +1,6 @@
 from get_ex_date import get_expected_ex_date
-from helpers import get_dividends, load_data
+from helpers import get_dividends
+from bull_or_bear_trend import get_trend
 import yfinance as yf
 
 # FRONT PAGE
@@ -25,8 +26,8 @@ def get_stocks_dict_list(tickers):
         expected_dividend_info = get_expected_ex_date(dividends) # change this later when we figure out how to get ex-date
         dict["ex-date"] = expected_dividend_info[0]
         dict["payout"] = expected_dividend_info[1]
+        dict["trend"] = get_trend(ticker_name) # bearish, bullish or consolidation
 
-        # dict["trend"] = get_trend(ticker_name) # bear, bull or consolidating
         # dict["captured_yield"] = get_yield(ticker_name) # dividend capture strategy yield based on past data -- can remove, put in backtest page
 
         result.append(dict)

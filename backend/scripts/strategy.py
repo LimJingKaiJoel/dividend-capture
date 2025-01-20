@@ -1,8 +1,7 @@
 from helpers import get_dividends, get_price_history
 from get_ex_date import get_expected_ex_date
 import pandas as pd
-from datetime import date, timedelta, datetime
-
+from datetime import date, timedelta
 '''
 average yield for this stock for dividend capture: 
 if positive, when to buy (show big recommendation: buy on D-2, sell on D+3)
