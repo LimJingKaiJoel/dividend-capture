@@ -26,7 +26,7 @@ def get_stocks_dict_list(tickers):
         dict["ex-date"] = expected_dividend_info[0]
         dict["payout"] = expected_dividend_info[1]
 
-        # dict["status"] = get_status(ticker_name) # bear, bull or consolidating
+        # dict["trend"] = get_trend(ticker_name) # bear, bull or consolidating
         # dict["captured_yield"] = get_yield(ticker_name) # dividend capture strategy yield based on past data -- can remove, put in backtest page
 
         result.append(dict)
