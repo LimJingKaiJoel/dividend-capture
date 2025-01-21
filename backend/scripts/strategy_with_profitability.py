@@ -79,6 +79,7 @@ def optimal_strategy_single_date(dividend_ex_date, dividend_value, buy_metric, s
     average_profit_percentage = 0
 
     smallest_timeframe = []
+    found = False
 
     dividend_ex_date = dividend_ex_date.replace(year = dividend_ex_date.year - 1)
 
@@ -105,14 +106,15 @@ def optimal_strategy_single_date(dividend_ex_date, dividend_value, buy_metric, s
             if profit_percentage == float('-inf'):
                 continue
 
-            # Break condition: we found a date to buy / sell that satisfies our desired_profit
-            if profit_percentage >= desired_profit_percentage:
+            # we found a date to buy / sell that satisfies our desired_profit, remember it (it's the smallest date)
+            if not found and profit_percentage >= desired_profit_percentage:
                 # print("Profit taken: ", profit, "   Target profit: ", desired_profit_value)
                 buy = shift - size
                 sell = shift
                 smallest_timeframe.append(buy)
                 smallest_timeframe.append(sell)
                 smallest_timeframe.append(profit_percentage)
+                found = True
             
             # If not, keep track if it's the max, in case we don't ever find a window that hits our desired profit, we want to return
             if profit_percentage > max_profit_percentage:

@@ -24,7 +24,7 @@ def get_stocks_dict_list(tickers):
         
         dict["name"] = ticker_info['shortName']
         expected_dividend_info = get_expected_ex_date(dividends) # change this later when we figure out how to get ex-date
-        dict["ex-date"] = expected_dividend_info[0]
+        dict["exDate"] = expected_dividend_info[0]
         dict["payout"] = expected_dividend_info[1]
         dict["trend"] = get_trend(ticker_name) # bearish, bullish or consolidation
 
