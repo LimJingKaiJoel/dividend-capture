@@ -15,17 +15,18 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-@app.get("/stocks")
-def get_stocks():
-    """
-    This endpoint returns stock data for all SGX tickers found in your data file.
-    """
-    DATA_FILE_PATH = "data/tickers.txt"
-    all_tickers = load_data(DATA_FILE_PATH)
+# # This method not necessary until I decide to make the updates real-time, but might cause some issues
+# @app.get("/stocks")
+# def get_stocks():
+#     """
+#     This endpoint returns stock data for all SGX tickers found in your data file.
+#     """
+#     DATA_FILE_PATH = "data/tickers.txt"
+#     all_tickers = load_data(DATA_FILE_PATH)
 
-    # might no need to sort -- sort after you get the data
-    stock_list = get_stocks_dict_list(sorted(all_tickers))
-    return stock_list
+#     # no need to sort -- sort after you get the data
+#     stock_list = get_stocks_dict_list(all_tickers)
+#     return stock_list
 
 @app.get("/stock/{symbol}/backtest")
 def get_backtest_data():
@@ -38,3 +39,4 @@ def get_backtest_data():
         - Suggested buy/sell date for upcoming dividend payout
         - Positive / negative average return + how often we profit from dividend capture on this stock
     """
+    
