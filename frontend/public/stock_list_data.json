@@ -1624,6 +1624,14 @@
     "trend": "Bearish"
   },
   {
+    "id": 211,
+    "symbol": "42R.SI",
+    "name": "Jumbo Group Limited",
+    "exDate": "2025-01-23",
+    "payout": 0.01,
+    "trend": "Consolidation"
+  },
+  {
     "id": 212,
     "symbol": "S59.SI",
     "name": "SIA Engineering Company Limited",
