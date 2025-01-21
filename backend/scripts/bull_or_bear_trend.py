@@ -1,7 +1,7 @@
 from ta.trend import SMAIndicator
 import yfinance as yf
 import pandas as pd
-from helpers import load_data
+from scripts.helpers import load_data
 
 def get_trend(ticker_name, sma_short_window=10, sma_long_window=20, momentum_days=10, momentum_threshold=0.02):
     """
@@ -41,8 +41,9 @@ def get_trend(ticker_name, sma_short_window=10, sma_long_window=20, momentum_day
     else:
         return "Consolidation"
 
-tickers = load_data("../data/SGX.txt")
-for ticker in tickers:
-    trend = get_trend(ticker)
-    if trend != "Unknown":
-        print(f"{ticker}: {trend}")
+# DATA_FILE_PATH = "data/tickers.txt"
+# tickers = load_data(DATA_FILE_PATH)
+# for ticker in tickers:
+#     trend = get_trend(ticker)
+#     if trend != "Unknown":
+#         print(f"{ticker}: {trend}")

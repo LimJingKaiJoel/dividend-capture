@@ -1,6 +1,6 @@
-from get_ex_date import get_expected_ex_date
-from helpers import get_dividends
-from bull_or_bear_trend import get_trend
+from scripts.get_ex_date import get_expected_ex_date
+from scripts.helpers import get_dividends, load_data
+from scripts.bull_or_bear_trend import get_trend
 import yfinance as yf
 
 # FRONT PAGE
@@ -11,6 +11,7 @@ def get_stocks_dict_list(tickers):
     # for each ticker in SGX, get relevant information into a dictionary and append to list
     for ticker_name in tickers:
         dividends = get_dividends(ticker_name)
+
         # Do not add tickers that don't exist anymore or don't pay dividends
         if dividends.empty:
             continue
@@ -22,9 +23,10 @@ def get_stocks_dict_list(tickers):
         id += 1
         dict["symbol"] = ticker_name
         
-        dict["name"] = ticker_info['shortName']
+        dict["name"] = ticker_info["longName"]
+        print(ticker_info["longName"])
         expected_dividend_info = get_expected_ex_date(dividends) # change this later when we figure out how to get ex-date
-        dict["ex-date"] = expected_dividend_info[0]
+        dict["exDate"] = expected_dividend_info[0]
         dict["payout"] = expected_dividend_info[1]
         dict["trend"] = get_trend(ticker_name) # bearish, bullish or consolidation
 
@@ -33,3 +35,6 @@ def get_stocks_dict_list(tickers):
         result.append(dict)
 
     return result
+
+filepath = "../data/tickers.txt"
+print(get_stocks_dict_list(load_data(filepath)))

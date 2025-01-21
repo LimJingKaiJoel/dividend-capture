@@ -1,14 +1,16 @@
 # Dividend Capture Strategy Tracker
 
-[I will insert a photo here later of the main dashboard and details screen, stay tuned!]
+![Picture of list page sorted by upcoming dividend date](frontend/public/dividend_capture.png)
 
 ## Overview
 
-This web app provides tools for backtesting the dividend capture strategy on SGX equities, with your desired backtest duration and risk threshold, as you can customise the maximum number of days you are willing to hold. The landing page also sorts all stocks by estimated upcoming dividend date, so that you can be prepared to execute the strategy on the correct tickers. We also calculate for you the frequency in which the dividend capture strategy works on this particular stock so that you can make a more informed decision. The backend is implemented in Python.
+This web app provides tools for backtesting the [dividend capture strategy](https://www.investopedia.com/articles/stocks/11/dividend-capture-strategy.asp) on SGX equities, with your desired backtest duration and risk threshold, as you can customise the maximum number of days you are willing to hold. It also calculates for you the frequency in which the dividend capture strategy works on this particular stock over the past years, with the average profit and frequency in which the strategy is profitable.
+
+The landing page also sorts all stocks by estimated upcoming dividend date, so that you can be prepared to execute the strategy on the correct tickers. The backend is implemented in Python.
 
 This is something I've always wanted to build for my own personal use and finances, but the web app will be deployed soon so everyone can benefit off it as well!
 
-If you use this web app, I am not liable for any financial decisions you make. Please do not try dividend capture in a bear market.
+If you use this web app, I am not liable for any financial decisions you make. Please do not try dividend capture in a bear market, as it is likely your capital loss will not be covered by the dividend payout.
 
 ## Feature List (Non-exhaustive)
 1.	Main Dashboard:
@@ -63,6 +65,8 @@ If you use this web app, I am not liable for any financial decisions you make. P
 6.	Strategy Success Rate:
 	
     •	Displays the frequency (e.g., 86%) at which the dividend capture strategy is positive EV for each stock over a desired timeframe.
+	
+    •	Also displays the average profit using this strategy for this particular stock based on historical data.
 
 
 ## Future Improvements
