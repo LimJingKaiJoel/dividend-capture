@@ -20,7 +20,10 @@ def get_stocks():
     """
     This endpoint returns stock data for all SGX tickers found in your data file.
     """
-    all_tickers = load_data("sgx_tickers.txt")  # adjust filename/path as needed
+    DATA_FILE_PATH = "data/tickers.txt"
+    all_tickers = load_data(DATA_FILE_PATH)
+
+    # might no need to sort -- sort after you get the data
     stock_list = get_stocks_dict_list(sorted(all_tickers))
     return stock_list
 

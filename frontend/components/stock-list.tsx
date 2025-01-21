@@ -1,6 +1,6 @@
 "use client"
 
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 import Link from 'next/link'
 import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from "@/components/ui/table"
 import { Input } from "@/components/ui/input"
@@ -9,12 +9,14 @@ import { Switch } from "@/components/ui/switch"
 import { Card, CardContent } from "@/components/ui/card"
 import { StockStatus } from '@/components/stock-status'
 
-// This is sample data - replace with your API call
-const stocks = [
-  { id: 1, symbol: 'DBS', name: 'DBS Group Holdings', dividendDate: '2023-05-15', yield: 4.50, ev: 0.80, status: 'bullish' as const },
-  { id: 2, symbol: 'OCBC', name: 'Oversea-Chinese Banking Corp', dividendDate: '2023-05-20', yield: 4.20, ev: 0.60, status: 'bearish' as const },
-  { id: 3, symbol: 'UOB', name: 'United Overseas Bank', dividendDate: '2023-05-25', yield: 4.00, ev: 0.70, status: 'consolidation' as const },
-]
+type StockData = {
+  id: number
+  symbol: string
+  name: string
+  exDate: string | null
+  payout: number
+  trend: string // "bullish" | "bearish" | "consolidation" | "unknown"
+}
 
 export function StockList() {
   const [search, setSearch] = useState('')
@@ -23,11 +25,49 @@ export function StockList() {
     nonBearish: false,
   })
 
-  const filteredStocks = stocks.filter(stock => {
-    if (filters.positiveEV && stock.ev <= 0) return false
-    if (filters.nonBearish && stock.status === 'bearish') return false
-    if (search && !stock.symbol.toLowerCase().includes(search.toLowerCase()) &&
-        !stock.name.toLowerCase().includes(search.toLowerCase())) return false
+  // to store data that is fetched in stockdata format
+  const [stocks, setStocks] = useState<StockData[]>([])
+  
+  // // stock data for landing page api endpoint -- Makes more sense to statically fetch for now
+  // const API_ENDPOINT = "http://127.0.0.1:8000/stocks"
+
+  // fetch (static json)
+  useEffect(() => {
+    fetch("/stock_list_data.json")
+      .then(response => response.json())
+      .then((data: StockData[]) => {
+        const sortedData = [...data].sort((a, b) => {
+          // push to bottom if null
+          if (!a.exDate) return 1
+          if (!b.exDate) return -1
+  
+          // Compare actual date values
+          return new Date(a.exDate).getTime() - new Date(b.exDate).getTime()
+        })
+  
+        setStocks(sortedData)
+      })
+      .catch((error) => {
+        console.error("Error fetching static JSON:", error)
+      })
+  }, [])
+
+  // filter
+  const filteredStocks = stocks.filter((stock) => {
+    if (filters.nonBearish && stock.trend === "Bearish") {
+      return false
+    }
+    // to add positiveEV tag,,, or if it's too computationally expensive, only display inside stock details page
+    // if (filters.positiveEV && stock.ev <= 0) return false
+
+    // search filter
+    if (
+      search &&
+      !stock.symbol.toLowerCase().includes(search.toLowerCase()) &&
+      !stock.name.toLowerCase().includes(search.toLowerCase())
+    ) {
+      return false
+    }
     return true
   })
 
@@ -49,7 +89,7 @@ export function StockList() {
                 <Switch
                   id="positive-ev"
                   checked={filters.positiveEV}
-                  onCheckedChange={(checked) => 
+                  onCheckedChange={(checked) =>
                     setFilters(prev => ({ ...prev, positiveEV: checked }))
                   }
                 />
@@ -59,7 +99,7 @@ export function StockList() {
                 <Switch
                   id="non-bearish"
                   checked={filters.nonBearish}
-                  onCheckedChange={(checked) => 
+                  onCheckedChange={(checked) =>
                     setFilters(prev => ({ ...prev, nonBearish: checked }))
                   }
                 />
@@ -74,17 +114,16 @@ export function StockList() {
                 <TableRow>
                   <TableHead>Symbol</TableHead>
                   <TableHead>Name</TableHead>
-                  <TableHead>Dividend Date</TableHead>
-                  <TableHead className="text-right">Yield</TableHead>
-                  <TableHead className="text-right">EV</TableHead>
-                  <TableHead>Status</TableHead>
+                  <TableHead>Ex Date</TableHead>
+                  <TableHead>Payout</TableHead>
+                  <TableHead>Trend</TableHead>
                 </TableRow>
               </TableHeader>
               <TableBody>
                 {filteredStocks.map((stock) => (
                   <TableRow key={stock.id}>
                     <TableCell className="font-medium">
-                      <Link 
+                      <Link
                         href={`/stock/${stock.symbol}`}
                         className="text-primary hover:underline"
                       >
@@ -92,11 +131,10 @@ export function StockList() {
                       </Link>
                     </TableCell>
                     <TableCell>{stock.name}</TableCell>
-                    <TableCell>{stock.dividendDate}</TableCell>
-                    <TableCell className="text-right">{stock.yield.toFixed(2)}%</TableCell>
-                    <TableCell className="text-right">{stock.ev.toFixed(2)}</TableCell>
+                    <TableCell>{stock.exDate}</TableCell>
+                    <TableCell>{stock.payout}</TableCell>
                     <TableCell>
-                      <StockStatus status={stock.status} />
+                      <StockStatus status={stock.trend as 'Bullish' | 'Bearish' | 'Consolidation'} />
                     </TableCell>
                   </TableRow>
                 ))}

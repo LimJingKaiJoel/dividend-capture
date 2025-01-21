@@ -1,16 +1,21 @@
-import { ArrowDown, ArrowRight, ArrowUp } from 'lucide-react'
+import { ArrowDown, ArrowRight, ArrowUp, type LucideIcon } from "lucide-react"
 
-type StatusType = 'bullish' | 'bearish' | 'consolidation'
+type StatusType = "Bullish" | "Bearish" | "Consolidation"
+
+interface StatusConfig {
+  Icon: LucideIcon
+  className: string
+}
 
 interface StockStatusProps {
   status: StatusType
 }
 
 export function StockStatus({ status }: StockStatusProps) {
-  const config = {
-    bullish: { Icon: ArrowUp, className: 'text-green-500' },
-    bearish: { Icon: ArrowDown, className: 'text-red-500' },
-    consolidation: { Icon: ArrowRight, className: 'text-gray-500' },
+  const config: Record<StatusType, StatusConfig> = {
+    Bullish: { Icon: ArrowUp, className: "text-green-500" },
+    Bearish: { Icon: ArrowDown, className: "text-red-500" },
+    Consolidation: { Icon: ArrowRight, className: "text-gray-500" },
   }
 
   const { Icon, className } = config[status]
