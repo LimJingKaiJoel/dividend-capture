@@ -1,12 +1,48 @@
-from fastapi import FastAPI
+from fastapi import FastAPI, Query
 from fastapi.middleware.cors import CORSMiddleware
 
-from scripts.helpers import load_data
-from scripts.get_stocks_dict_list import get_stocks_dict_list
+from scripts.helpers import get_dividends, get_price_history
+from scripts.strategy_with_profitability import optimal_strategies
 
 app = FastAPI()
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],  # adjust as needed
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
 
-# CORS config, allowing all origins here for simplicity -- to change in the future!
+@app.get("/stock/{symbol}/backtest")
+def backtest_stock(
+    symbol: str,
+    strategy_duration: int = Query(700, description="Number of days to look back"),
+    buy_metric: str = Query("Close"),
+    sell_metric: str = Query("Close"),
+    hold_threshold: int = Query(5),
+    desired_profit_percentage: float = Query(0.02),
+):
+    """
+    request structure:
+    GET /stock/A17U.SI/backtest?strategy_duration=700&hold_threshold=5&desired_profit_percentage=0.02
+    """
+    dividends = get_dividends(symbol)
+    price_history = get_price_history(symbol, '5y')
+
+    df = optimal_strategies(
+        strategy_duration, dividends, buy_metric, sell_metric,
+        price_history, hold_threshold, desired_profit_percentage
+    )
+
+    # Convert the DataFrame to a list of dicts so it can be JSON serialized
+    return df.to_dict(orient="records")
+
+from fastapi import FastAPI
+from fastapi.middleware.cors import CORSMiddleware
+import yfinance as yf
+from typing import Optional
+
+app = FastAPI()
 app.add_middleware(
     CORSMiddleware,
     allow_origins=["*"],
@@ -15,28 +51,19 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-# # This method not necessary until I decide to make the updates real-time, but might cause some issues
-# @app.get("/stocks")
-# def get_stocks():
-#     """
-#     This endpoint returns stock data for all SGX tickers found in your data file.
-#     """
-#     DATA_FILE_PATH = "data/tickers.txt"
-#     all_tickers = load_data(DATA_FILE_PATH)
+@app.get("/stock/{symbol}")
+def get_stock_details(symbol: str):
+    # fetch data from yfinance
+    ticker = yf.Ticker(symbol)
+    info = ticker.info
 
-#     # no need to sort -- sort after you get the data
-#     stock_list = get_stocks_dict_list(all_tickers)
-#     return stock_list
-
-@app.get("/stock/{symbol}/backtest")
-def get_backtest_data():
-    """
-    This endpoint is a button you can click in the stock details page that backtests the dividend capture strategy
-    Input:
-        - Max number of days willing to hold
-    Output:
-        - Displays historical strategy best dates to buy / sell and EV for these payouts
-        - Suggested buy/sell date for upcoming dividend payout
-        - Positive / negative average return + how often we profit from dividend capture on this stock
-    """
-    
+    data = {
+        "symbol": symbol,
+        "name": info.get("longName", "Unknown"),
+        "price": info.get("regularMarketPrice", 0),
+        "yield": info.get("dividendYield", 0),
+        "pe": info.get("trailingPE", 0),
+        "eps": info.get("trailingEps", 0),
+        "marketCap": info.get("marketCap", 0),
+    }
+    return data
