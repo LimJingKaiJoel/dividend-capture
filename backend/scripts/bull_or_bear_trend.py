@@ -1,7 +1,7 @@
 from ta.trend import SMAIndicator
 import yfinance as yf
 import pandas as pd
-from scripts.helpers import load_data
+from scripts.helpers import load_data, get_price_history
 
 def get_trend(ticker_name, sma_short_window=10, sma_long_window=20, momentum_days=10, momentum_threshold=0.02):
     """
@@ -10,8 +10,8 @@ def get_trend(ticker_name, sma_short_window=10, sma_long_window=20, momentum_day
     
     returns a string: "Bullish", "Bearish", or "Consolidation". ("Unknown" if error)
     """
-    # .download() as we don't need the other info that comes with .price_history()
-    price_data = yf.download(ticker_name, period="6mo", interval="1d")
+    # 1 month might not have 20 trading days, so we do 2 months time frame
+    price_data = get_price_history(ticker_name, "2mo")
     
     if price_data.empty or 'Close' not in price_data:
         return "Unknown"

@@ -1,5 +1,5 @@
 "use client"
-
+// I will make the backtest chart once the MVP is done!
 import { Line, LineChart, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer } from 'recharts'
 
 // This is a placeholder for the actual data fetching function

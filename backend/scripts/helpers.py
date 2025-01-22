@@ -14,7 +14,6 @@ def load_data(filepath):
 def get_dividends(ticker):
     # Get pandas series of dividends
     info = yf.Ticker(ticker)
-    print(info.dividends)
     return info.dividends
 
 def get_price_history(ticker, period):

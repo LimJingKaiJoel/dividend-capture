@@ -10,29 +10,36 @@ def get_stocks_dict_list(tickers):
 
     # for each ticker in SGX, get relevant information into a dictionary and append to list
     for ticker_name in tickers:
-        dividends = get_dividends(ticker_name)
+        try:
+            dividends = get_dividends(ticker_name)
+            expected_dividend_info = get_expected_ex_date(dividends) # might return empty list if no dividends given
+            
+            # if empty, don't need process this ticker, it doesn't give dividends -- the method returns [] if dividends dont exist
+            if not expected_dividend_info:
+                continue
 
-        # Do not add tickers that don't exist anymore or don't pay dividends
-        if dividends.empty:
-            continue
+            ticker_info = yf.Ticker(ticker_name).info
 
-        ticker_info = yf.Ticker(ticker_name).info
+            current_stock = {}
+            current_stock["id"] = id
+            id += 1
+            current_stock["symbol"] = ticker_name
+            
+            # ticker might not have a variable longName in the api
+            try: 
+                current_stock["name"] = ticker_info['longName']
+            except:
+                continue
 
-        dict = {}
-        dict["id"] = id
-        id += 1
-        dict["symbol"] = ticker_name
-        
-        dict["name"] = ticker_info["longName"]
-        print(ticker_info["longName"])
-        expected_dividend_info = get_expected_ex_date(dividends) # change this later when we figure out how to get ex-date
-        dict["exDate"] = expected_dividend_info[0]
-        dict["payout"] = expected_dividend_info[1]
-        dict["trend"] = get_trend(ticker_name) # bearish, bullish or consolidation
+            current_stock["exDate"] = expected_dividend_info[0]
+            current_stock["payout"] = expected_dividend_info[1]
+            current_stock["trend"] = get_trend(ticker_name) # bearish, bullish or consolidation
 
-        # dict["captured_yield"] = get_yield(ticker_name) # dividend capture strategy yield based on past data -- can remove, put in backtest page
-
-        result.append(dict)
+            # dict["captured_yield"] = get_yield(ticker_name) # dividend capture strategy yield based on past data -- can remove, put in backtest page
+            print(current_stock)
+            result.append(current_stock)
+        except:
+            return result
 
     return result
 
