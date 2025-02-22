@@ -1,0 +1,7 @@
+### Test the API with a valid stock symbol
+GET http://127.0.0.1:8000/dividends/D05.SI
+Accept: application/json
+
+### Test the API with an invalid or delisted stock
+GET http://127.0.0.1:8000/dividends/INVALID_TICKER
+Accept: application/json

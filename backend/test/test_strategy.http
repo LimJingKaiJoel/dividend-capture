@@ -1,0 +1,9 @@
+@baseUrl = http://127.0.0.1:8000
+@symbol = D05.SI
+@strategy_duration = 700
+@hold_threshold = 15
+@desired_profit_percentage = 0.01
+
+### Test Backtest Endpoint with Dynamic Parameters
+GET {{baseUrl}}/stock/{{symbol}}/backtest?strategy_duration={{strategy_duration}}&hold_threshold={{hold_threshold}}&desired_profit_percentage={{desired_profit_percentage}}
+Accept: application/json

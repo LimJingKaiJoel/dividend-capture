@@ -28,7 +28,13 @@ for backtesting later reference
 # Strategy_duration is in days!
 def optimal_strategies(strategy_duration, dividends, buy_metric, sell_metric, price_history, hold_threshold, desired_profit_percentage):
     today = pd.Timestamp(date.today(), tz="UTC")
-    dividends = dividends[dividends.index > today - timedelta(days = strategy_duration)]
+    
+    dividends.index = pd.to_datetime(dividends.index).tz_localize("UTC")
+    cutoff_date = today - timedelta(days = strategy_duration)
+    
+# print(dividends.index.min())
+# print(dividends.index.max())
+    dividends = dividends[dividends.index > cutoff_date]
     
     # Create empty df with my column names
     columns = ['id', 'ex-date', 'buy_date', 'sell_date', 'capture_yield', 'profitable_percentage', 'average_profit', 'possible_desired_profit']
@@ -42,7 +48,7 @@ def optimal_strategies(strategy_duration, dividends, buy_metric, sell_metric, pr
             'ex-date': dividend_date,
         }
         id += 1
-
+        
         dividend_value = dividends[dividends.index == dividend_date].iloc[0]
 
         strategy_info = optimal_strategy_single_date(dividend_date, dividend_value, buy_metric, sell_metric, price_history, hold_threshold, desired_profit_percentage)
@@ -153,7 +159,7 @@ def get_profit_percentage(buy_date, sell_date, buy_metric, sell_metric, price_hi
     except:
         return float('-inf')
 
-
+# for testing
 ticker = "A17U.SI"
 dividends = get_dividends(ticker)
 price_history = get_price_history(ticker, '5y')

@@ -1,4 +1,4 @@
-from fastapi import FastAPI, Query
+from fastapi import FastAPI, HTTPException, Query
 from fastapi.middleware.cors import CORSMiddleware
 
 from scripts.helpers import get_dividends, get_price_history
@@ -37,33 +37,50 @@ def backtest_stock(
     # Convert the DataFrame to a list of dicts so it can be JSON serialized
     return df.to_dict(orient="records")
 
-from fastapi import FastAPI
-from fastapi.middleware.cors import CORSMiddleware
-import yfinance as yf
-from typing import Optional
+# The below methods are for testing if yfinance is up and providing proper data!!!
+@app.get("/dividends/{symbol}")
+async def fetch_dividends(symbol: str):
+    dividends = get_dividends(symbol)
+    
+    # Ensure data is valid
+    if dividends.empty:
+        raise HTTPException(status_code=404, detail=f"No dividend data found for {symbol}. The stock may be delisted or have no recorded dividends.")
+    
+    # Convert to dictionary for JSON response
+    return {"symbol": symbol, "dividends": dividends.to_dict()}
 
-app = FastAPI()
-app.add_middleware(
-    CORSMiddleware,
-    allow_origins=["*"],
-    allow_credentials=True,
-    allow_methods=["*"],
-    allow_headers=["*"],
-)
 
-@app.get("/stock/{symbol}")
-def get_stock_details(symbol: str):
-    # fetch data from yfinance
-    ticker = yf.Ticker(symbol)
-    info = ticker.info
-
-    data = {
+@app.get("/price-history/{symbol}/{period}")
+async def fetch_price_history(symbol: str, period: str):
+    price_data = get_price_history(symbol, period)
+    
+    return {
         "symbol": symbol,
-        "name": info.get("longName", "Unknown"),
-        "price": info.get("regularMarketPrice", 0),
-        "yield": info.get("dividendYield", 0),
-        "pe": info.get("trailingPE", 0),
-        "eps": info.get("trailingEps", 0),
-        "marketCap": info.get("marketCap", 0),
+        "period": period,
+        "price_history": price_data.to_dict(orient="index")  # Convert DataFrame to dictionary
     }
-    return data
+
+# @app.get("/stock/{symbol}")
+# def get_stock_details(symbol: str):
+#     try:
+#         # Fetch data from yfinance
+#         ticker = yf.Ticker(symbol)
+#         info = ticker.info
+
+#         # Check if data is missing or unavailable
+#         if not info or info is None:
+#             raise HTTPException(status_code=404, detail=f"No data found for symbol {symbol}")
+
+#         data = {
+#             "symbol": symbol,
+#             "name": info.get("longName", "Unknown"),
+#             "price": info.get("regularMarketPrice", 0),
+#             "yield": info.get("dividendYield", 0),
+#             "pe": info.get("trailingPE", 0),
+#             "eps": info.get("trailingEps", 0),
+#             "marketCap": info.get("marketCap", 0),
+#         }
+#         return data
+
+#     except Exception as e:
+#         raise HTTPException(status_code=500, detail=f"Internal Server Error: yfinance likely rate limiting or down. Message: {str(e)}")

@@ -1,0 +1,11 @@
+### Test the API with a valid stock symbol and period
+GET http://127.0.0.1:8000/price-history/D05.SI/1y
+Accept: application/json
+
+### Test the API with an invalid stock symbol
+GET http://127.0.0.1:8000/price-history/INVALID_TICKER/1y
+Accept: application/json
+
+### Test the API with an invalid period
+GET http://127.0.0.1:8000/price-history/D05.SI/100y
+Accept: application/json
